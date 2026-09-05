@@ -1,0 +1,7 @@
+body { background-color: #f0f4f8; font-family: 'Segoe UI', Roboto, sans-serif; }
+        .navbar { background-color: #0b3c5d; }
+        .card-custom { border-radius: 12px; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+        .delay-badge { background-color: #d9534f; color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; }
+        .ontime-badge { background-color: #28a745; color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; }
+        .btn-rail { background-color: #328cc1; color: white; }
+        .btn-rail:hover { background-color: #1d6fa5; color: white; }

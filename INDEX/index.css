@@ -1,7 +1,45 @@
-body { background-color: #f0f4f8; font-family: 'Segoe UI', Roboto, sans-serif; }
-        .navbar { background-color: #0b3c5d; }
-        .card-custom { border-radius: 12px; border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
-        .delay-badge { background-color: #d9534f; color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; }
-        .ontime-badge { background-color: #28a745; color: white; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; }
-        .btn-rail { background-color: #328cc1; color: white; }
-        .btn-rail:hover { background-color: #1d6fa5; color: white; }
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+}
+
+.card-custom {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+}
+
+.btn-rail {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.btn-rail:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+.delay-badge {
+    background-color: #ffe5e5;
+    color: #dc3545;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.ontime-badge {
+    background-color: #e6f4ea;
+    color: #198754;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
